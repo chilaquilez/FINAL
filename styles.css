@@ -1,19 +1,28 @@
-form {
-    display: box;
+form {    
+    display: flex;
     margin: 12px;
     padding: 4px;
     background: beige;
 }
 
-nav ul {
-    display: flexbox;
+nav {
+    display: flex;
     color: violet;
     border: black, solid;
     border-radius: 20px;
 }
 
-span {
-    font-weight: 200;
+nav ul li {
+    display: inline;
+    padding: 50px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#span {
+    font-weight: 300;
     font-size: large;
     color: red;
 }
