@@ -10,3 +10,6 @@ if (userName) {
 } else {
     greetingMessage.textcontent = "PLEASE ENTER YOUR NAME.";
 });
+
+//textcontent returns plain text stored in the variable while innerHTML can format data types or displays its content as it was programmed to
+//because of this using textcontent can be safer as innHTML opens the doors for hacker to inject code into the main file
