@@ -1,0 +1,19 @@
+form {
+    display: box;
+    margin: 12px;
+    padding: 4px;
+    background: beige;
+}
+
+nav ul {
+    display: flexbox;
+    color: violet;
+    border: black, solid;
+    border-radius: 20px;
+}
+
+span {
+    font-weight: 200;
+    font-size: large;
+    color: red;
+}
