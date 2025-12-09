@@ -1,8 +1,22 @@
 form {    
     display: flex;
+    border: black, solid,;
     margin: 12px;
     padding: 4px;
     background: beige;
+} 
+    
+    <!--
+    content: main content of the boxmodel
+    padding: the space between the content and the border
+    border: actual border that sepparates padding from margin
+    margin: space that separates the border of its content from the margin of other box content
+    -->
+
+
+.class {
+    font: bold;
+    color:brown;
 }
 
 nav {
@@ -22,7 +36,20 @@ p {
 }
 
 #span {
-    font-weight: 300;
-    font-size: large;
+    font-weight: 500;
+    font-size: larger;
     color: red;
+}
+
+textarea {
+    rows: 10;
+    cols: 10;
+}
+
+.hide-completely {
+    display: none;
+}
+
+.hide-but-keep-space {
+    visibility: hidden;
 }
